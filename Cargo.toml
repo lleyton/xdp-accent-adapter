@@ -1,0 +1,20 @@
+[package]
+name = "xdp-accent-adapter"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ashpd = { version = "0.6.7", default-features = false, features = ["tokio", "tracing"] }
+color-eyre = "0.6.2"
+futures-util = "0.3.29"
+serde = { version = "1.0.190", features = ["derive"] }
+tokio = { version = "1.33.0", features = ["full"] }
+tokio-stream = "0.1.14"
+toml = "0.8.6"
+tracing = "0.1.40"
+tracing-error = "0.2.0"
+tracing-subscriber = { version = "0.3.17", features = ["env-filter", "tracing-log"] }
+xdg = "2.5.2"
+zvariant = "3.15.0"
