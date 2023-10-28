@@ -1,6 +1,6 @@
 # xdp-accent-adapter
 
-Adapt the DE's preferred accent color (provided via XDP) for ~~legacy~~ platforms not supporting the standard. Just a fun side-project.
+Adapt the DE's preferred accent color (provided via XDP) for ~~legacy~~ platforms not supporting the standard. Got bored one night.
 
 ## ⚠️ Disclaimer
 
